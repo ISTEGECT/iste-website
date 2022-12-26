@@ -1,0 +1,44 @@
+.carouselevent{
+    width: 90%;
+    height: 60vw;
+     margin: 0 auto;
+}
+
+.head{
+  
+  margin: 7vw 9vw 0vw;
+  border: 0.2vw solid;
+  width: 80vw;
+  display: flex;
+  height: 11vw;
+  
+  border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+  animation: borderRotate var(--d) linear infinite forwards;
+  /* box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
+      1px 2px 4px 0px rgba(225, 0, 255, 0.996),
+      2px 4px 8px 0px rgba(0,255,255,0.7),
+      2px 4px 16px 0px rgba(225, 0, 255, 0.996); */
+    
+  align-items: center;
+  justify-content: center;
+}
+.eventHeading{
+  font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 6vw;
+line-height: 4vw;
+text-align: center;
+text-shadow: rgb(48, 47, 53) 8px 2px;
+letter-spacing: 1.2vw;
+  }
+  
+
+
+.Uevent{
+    height: 40vw;
+    width: 40vw;
+   
+    
+
+}

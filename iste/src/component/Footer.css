@@ -1,0 +1,123 @@
+.Footer{
+    background-color: rgb(65, 63, 63);
+    display: flex;
+}
+.logofoot img{
+    width: 30vw;
+    /* color: black; */
+
+     
+}
+
+.logofoot {
+    /* background-color: red; */
+    width: 33vw;
+    height: 15vw;
+    /* padding-left: 10px; */
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.enquiry{
+    display: flex;
+    /* background-color: aqua; */
+    width: 33vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.enquiry a{
+    
+    color: white;
+}
+.enquiry ul{
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.enquiry a{
+    padding: 2vw;
+}
+.links{
+    /* background-color: yellow; */
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.icons{
+    /* background-color: chocolate; */
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    
+
+
+}
+
+.social{
+    font-size: 2vw;
+}
+.icons a:hover{
+    box-shadow: 0 0 11px rgb(255, 255, 255); 
+    transition:  .5s ease-in-out;
+   
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .Footer{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .logofoot{
+        /* background-color: red; */
+        width: 100%;
+
+    }
+    .logofoot img{
+        width: 60vw;
+        /* color: black; */
+    }
+    .enquiry{
+        width: 100%;
+        /* background-color: brown; */
+        display: flex;
+        font-size: 3vw;
+        flex-direction: row;
+
+    }
+    
+    .links{
+        /* background-color: yellow; */
+        width: 100%;
+        display: flex;
+    }
+    .social{
+        font-size: 5vw;
+        padding-bottom: 0px;
+    }
+    .icons{
+        /* background-color: chocolate; */
+        width: 48%;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 4vw;
+        
+    
+    
+    }
+    
+    
+    
+}
+

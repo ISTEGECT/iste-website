@@ -1,0 +1,200 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    margin-top: 6vw;
+    color: white;
+    height: 70vw;
+    width: 100%;
+    padding: 3vw;
+}
+   
+
+   
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    height: 35vw;
+
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    height: 35vw;
+    margin-top: 5vw;
+   
+}
+.col1{
+    width:70% ;
+    padding: 2vw;
+    box-shadow: -1px -1px 0px 0px  rgb(98, 96, 96);
+    border: 0.2vw solid;
+    border-bottom: none;
+    border-right: none;
+    border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+    animation: borderRotate var(--d) linear infinite forwards;
+   
+    text-align: center;
+    
+}
+.col1 h1{
+    text-align:'center';
+    text-shadow: rgb(209, 80, 232) 3px 1px 1px;
+    letter-spacing: 0.4vw;
+}
+.col2{
+    width: 30%;
+    
+    
+}
+.col3{
+    width:30% ;
+    
+}
+.col4{
+    width: 70%;
+    text-align: center;
+    padding: 2vw;
+    box-shadow: 0.5px 0.5px  rgb(98, 96, 96);
+    border: 0.3vw solid ;
+    border-top: none;
+    border-left: none;
+    border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+    animation: borderRotate var(--d) linear infinite forwards;
+}
+.col4 h1{
+    text-align:'center';
+    text-shadow: rgb(209, 80, 232) 3px 1px 1px;
+    letter-spacing: 0.4vw;
+}
+.imgabt{
+    height: 25vw;
+    width: 25vw;
+    margin-left: 2vw;
+    
+}
+.imgobj{
+    height: 25vw;
+    width: 25vw;
+    margin-top: 5vw;
+    }
+    @media screen and (min-width:768px) {
+        .About{
+            height: 80vw;
+        }
+        .row1{
+            height: 40vw;
+        }
+        .row2{
+            height: 40vw;
+        }
+    }
+    @media screen and (max-width:768px) {
+        .About{
+            height: 300vw;
+            width: 100%;
+            margin-top: 10vw;
+
+        }
+        .row1{
+            height: 150vw;
+            display: flex;
+            flex-direction: column-reverse;
+            box-shadow: -2px -1px 0px 0px  rgb(98, 96, 96);
+            padding-top:2vw ;
+            border: 0.2vw solid;
+            border-bottom: none;
+            border-right: none;
+            border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+            animation: borderRotate var(--d) linear infinite forwards;
+           
+          
+        }
+        .row2{
+           
+            height: 150vw;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 3vw;
+        }
+        .col1{
+            height: 100vw;
+            width: 100%;
+            box-shadow: none;
+            border: none;
+        }
+        .col2{
+            height: 50vw;
+            width: 100%;
+           
+        }
+        .col3{
+            display: 50vw;
+            width: 100%;
+           
+        }
+        .col4{
+            height: 100vw;
+            width: 100%;
+        }
+        .imgabt{
+            height: 40vw;
+            width: 40vw;
+            margin-left: 30vw;
+        }
+        .imgobj{
+            height: 40vw;
+            width: 40vw;
+            margin-left: 30vw;
+            }
+    }
+
+
+   
+      
+      
+      
+      
+      @property --angle {
+        syntax: '<angle>';
+        initial-value: 90deg;
+        inherits: true;
+      }
+      
+      @property --gradX {
+        syntax: '<percentage>';
+        initial-value: 50%;
+        inherits: true;
+      }
+      
+      @property --gradY {
+        syntax: '<percentage>';
+        initial-value: 0%;
+        inherits: true;
+      }
+  
+      :root {
+        --d: 2500ms;
+        --angle: 90deg;
+        --gradX: 100%;
+        --gradY: 50%;
+        --c1: rgba(152, 13, 176, 0.996);
+        --c2:rgb(234, 243, 244) ;
+            
+      }
+      .wrapper {
+        min-width: min(40rem, 100%);
+      }
+      
+       
+      
+      
+      @keyframes borderRotate {
+        100% {
+          --angle: 420deg;
+        }
+      }
+      
+      

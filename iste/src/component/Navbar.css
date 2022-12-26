@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Poppins&family=Sarala&display=swap');
+
+
+nav{
+  top:0;
+  left: 0;
+  /* position: relative; */
+  /* background-color: rgb(0, 0, 0); */
+  background-color: rgb(45, 43, 43);
+  z-index:3;
+  width: 100%;
+  position: fixed;
+  height: 8vw;
+  display: flex;
+  justify-content: space-between;
+ 
+ 
+  
+}
+.logo img{
+  width: 5vw;
+  height: 5vw;
+  
+}
+.logo p{
+  font-size: 2.7vw;
+  color: white;
+}
+.logo{
+  width: 12%;
+  display: flex;
+  align-items: center;
+  /* padding: .5% 0% .5% 0%; */
+  /* background-color: green; */
+  justify-content: space-around;
+  display: flex;
+
+}
+.but{
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22%;
+  
+  height:52%;
+  border-radius: 8px 0px 40px;
+
+ 
+font-weight: 600;
+  
+}
+.but a{
+  text-decoration: none;
+  color: white;
+  
+}
+.buttons{
+
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.7vw;
+  margin-right: 1vw;
+  /* position: fixed; */
+}
+.but:hover{
+ 
+  
+font-weight: 600;
+color: rgb(209, 80, 232);
+ transform: translateY(-5px);
+  box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
+            1px 2px 4px 0px rgba(225, 0, 255, 0.996),
+            2px 4px 8px 0px rgba(0,255,255,0.7),
+            2px 4px 16px 0px rgba(225, 0, 255, 0.996);
+            transition: .1s ease-in-out;
+            transition: .1s ease-in-out;
+}
+.tog{
+  position: fixed;
+  color: white;
+  display: none;
+  /* background: yellow; */
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+ .buttons{
+  display: none;
+  position:relative
+ }
+ nav{
+  display: flex;
+  align-items: center;
+   
+  
+ }
+
+ .tog{
+  display: block;
+  color: white;
+  width: 33px;
+  margin-left: 93%;
+  z-index: 10;
+ }
+ .showMenu p{
+  display: block;
+  transition: 0.3s;
+
+ }
+ .showMenu{
+      width: 100%;
+      position: absolute;
+      background-color: #1e1e1f;
+      /* z-index: 9; */
+      height: 60vw;
+      top: 100%;
+      right: 0%;
+      /* margin-left: 50%; */
+      display: flex;
+      /* margin-top: 52vw; */
+      font-size: 3vw;
+      /* justify-content: space-around; */
+      flex-direction: column;
+      /* transition: 0.5s; */
+      /* cursor: pointer; */
+      
+ }
+ .showMenu .but{
+  width: 100%;
+  border-radius: 0%;
+  background-color: rgb(50, 51, 52);
+  border-bottom: rgb(0, 0, 0) 1px solid;
+ }
+
+ 
+}
