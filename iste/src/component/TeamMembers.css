@@ -1,0 +1,133 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+/* .container{
+    background-color: black;
+} */
+
+.mainHeadDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.mainHead{
+    text-align: center;
+    color: white;
+}
+.imgDiv{
+    height: 15rem;
+    width: 15rem;
+    overflow: hidden;
+}
+
+.img1{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.gridDiv{
+    display: grid;
+    grid-template-columns: repeat(1,minmax(0,1fr));
+}
+
+.imgMainDiv{
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subHeadDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subHead{
+    color: white;
+}
+
+.imgNameDiv{
+    margin: 2.5rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.detailsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    bottom: -3rem;
+}
+
+
+.name{
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 2rem;
+    color: white;
+}
+
+.imgShade{
+    top: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+    right: 0rem;
+    position: absolute;
+    background-image: linear-gradient(transparent,transparent,rgba(0,0,0,0.8));
+}
+.seeMoreDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 6rem;
+}
+.seeMoreBtn{
+    border-radius: 2rem;
+    border: none;
+    background-color: rgba(100, 100, 100, 1);
+    color: white;
+    padding: 0.5rem;
+}
+
+.seeMoreBtn:hover{
+    background-color: rgba(75, 75, 75, 1);
+    transition-duration: 50ms;
+}
+.imgNameDiv:hover .imgShade{
+    background-image: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition-duration: 500ms;
+}
+.imgNameDiv:hover .detailsDiv{
+
+    transform: translate(0,-50%);
+    transition-duration: 500ms;
+}
+.imgNameDiv:hover .img1{
+    scale: 1.1;
+    rotate: 5deg;
+    transition-duration: 500ms;
+}
+
+@media (min-width: 768px){
+    .md\:grid-cols-2{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+}
+@media (min-width: 1280px){
+    .xl\:grid-cols-4{
+        grid-template-columns: repeat(4,minmax(0,1fr));
+    }
+}

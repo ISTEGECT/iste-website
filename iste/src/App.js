@@ -8,8 +8,8 @@ import About from './component/About';
 import Gallery from './component/Gallery';
 import {Upcoming} from './component/Upcoming';
 import Map from './component/Map';
-import Contact from "./component/Contact";
 import Footer from "./component/Footer";
+import Team from "./component/TeamMembers"
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
       <About/>
       <Gallery/>
       <Upcoming/>
-      <Contact/>
+      <Team/>
       <Map/>
       <Footer/>
       
