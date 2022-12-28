@@ -1,0 +1,1 @@
+npm add vanta three -used for adding 3d model in home page
