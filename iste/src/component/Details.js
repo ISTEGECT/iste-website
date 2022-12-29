@@ -5,7 +5,7 @@ export default function Details() {
   
   return (
   
-    <div className='Details' >
+    <div className='Details'  id='details'>
     
        <div className="vision " >
          <h1 >Vision</h1>

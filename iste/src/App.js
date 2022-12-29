@@ -1,5 +1,5 @@
-
 import './App.css';
+
 import Navbar from "./component/Navbar";
 import Home from "./component/Home";
 import Details from "./component/Details";
@@ -10,25 +10,22 @@ import Map from './component/Map';
 import Footer from "./component/Footer";
 import Team from "./component/TeamMembers"
 
-
 function App() {
 
   return(
 
     <div className="App">
      
-      <Navbar/>
-
-      <Home />
-      
-      <Details/>
-      <About/>
-      <Gallery/>
-      <Upcoming/>
-      <Team/>
-      <Map/>
+     <Navbar/>
+     <Home />
+     <Details/>
+     <About/>
+     <Gallery/>
+     <Upcoming/>
+     <Team/>
+     <Map/>
       <Footer/>
-      
+    
    </div>
   );
    

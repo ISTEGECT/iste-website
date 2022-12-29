@@ -4,7 +4,8 @@ import Animation from "./Animation";
 const Home = () => {
  
   return (
-  <div className="home" style={{  position: 'relative' }} >
+  
+  <div className="home" style={{  position: 'relative' }} id="home" >
     
     <Animation />
    <div className="Abox">
@@ -33,6 +34,7 @@ const Home = () => {
   </svg>
   
   </div>
+  
     );
 }
  

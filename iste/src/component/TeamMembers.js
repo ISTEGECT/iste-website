@@ -8,7 +8,7 @@ import './TeamMembers.css';
 const profile = () => {
     return (
         <>
-            <div className="container">
+            <div className="container" id='team'>
                 <div className="mainHeadDiv">
                     <h1 className="mainHead">ISTE GECT EXECOM'23</h1>
                 </div>

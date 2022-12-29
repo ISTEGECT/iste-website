@@ -4,7 +4,7 @@ import about from '../assets/about.jpg';
 import objective from '../assets/objective.jpg';
 export default function About() {
   return (
-    <div className='About'>
+    <div className='About' id='about'>
         <div className="row1">
             <div className="col1">
                <h1 >About Us</h1>

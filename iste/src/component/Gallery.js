@@ -37,7 +37,7 @@ export default function Gallery() {
     beforeChange: (current, next) => setImageIndex(next),
    };
   return (
-    <div className="Maingallery">
+    <div className="Maingallery" id='events'>
             <div className="heading"><h1 className='galleryHeading' style={{textAlign:'center',color:'white'}}>
             Previous Events</h1></div>
 
@@ -79,6 +79,8 @@ export default function Gallery() {
     
 
     </div>
+
+ 
     </div>
   )
 }
