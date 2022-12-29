@@ -7,8 +7,9 @@
     /* background-image: linear-gradient(180deg, rgb(0, 0, 0),rgb(0, 0, 0), rgb(34, 32, 32),rgb(82, 82, 82)); */
     /* background-image: linear-gradient(270deg, rgb(0, 0, 0), rgb(34, 32, 32),rgb(82, 82, 82)); */
   
-    position: relative;
+   
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     font-family: 'IBM Plex Sans';
@@ -17,10 +18,11 @@ font-weight: 700;
 }
 .Abox{
   height: 50vw;
-  width: 40vw;
+  width: 30%;
   
   overflow: hidden;
   z-index: 2;
+  
 }
 .box{
   height: 30vw;
@@ -107,7 +109,8 @@ font-weight: 700;
     /* width: 960px; */
     height: 300px;
     margin: 0 auto;
- 
+   
+    width: 70%;
 
 }
 
