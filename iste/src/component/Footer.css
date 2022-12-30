@@ -2,6 +2,8 @@
     background-color: rgb(65, 63, 63);
     display: flex;
     cursor: pointer;
+    width: 100%;
+  
 }
 .logofoot img{
     width: 30vw;

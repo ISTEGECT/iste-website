@@ -47,8 +47,9 @@ nav{
   height:52%;
   border-radius: 8px 0px 40px;
 
- 
+ font-size: 1.2vw;
 font-weight: 500;
+cursor: pointer;
   
 }
 .but a{

@@ -8,6 +8,15 @@ import { FaRegCalendarAlt,FaMapMarkerAlt} from "react-icons/fa";
 // import { FaRegCalendarAlt,FaAngleRight,FaAngleLeft,FaMapMarkerAlt} from "react-icons/fa";
 
 export default function Gallery() {
+  const [isVisible, setVisible] = React.useState(true);
+  const domRef = React.useRef();
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+    observer.observe(domRef.current);
+    return () => observer.observe(domRef.current);
+  }, []);
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
@@ -36,9 +45,11 @@ export default function Gallery() {
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
    };
+
   return (
     <div className="Maingallery" id='events'>
-            <div className="heading"><h1 className='galleryHeading' style={{textAlign:'center',color:'white'}}>
+            <div className={`heading fade-in-section ${isVisible ? 'is-visible' : ''}`}
+    ref={domRef}><h1 className='galleryHeading' style={{textAlign:'center',color:'white'}}>
             Previous Events</h1></div>
 
     <div className='Gallery' style={{color:'white'}}>
