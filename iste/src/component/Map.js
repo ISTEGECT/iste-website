@@ -39,7 +39,7 @@ export default function Map() {
           <div className='formHead'>
             <h1>Contact us</h1>
             <a href = "mailto:iste@gectcr.ac.in?subject=New enquiry from ISTE GECT website"><img className="contactIcon" src={mail} alt=""></img></a>
-            <a href="tel:+918943211896"><img className="contactIcon" src={phone} alt=""></img></a>
+            <a href="tel:+917306578722"><img className="contactIcon" src={phone} alt=""></img></a>
           </div>
           <form onSubmit={handleSubmit}>
             <label>
