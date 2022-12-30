@@ -15,8 +15,11 @@
 }
 
 .mainHead{
+    font-family: 'IBM Plex Sans';
     text-align: center;
     color: white;
+    text-shadow: rgb(209, 80, 232) 3px 1px 1px ;
+    font-size: 2rem;
 }
 .imgDiv{
     height: 15rem;
@@ -50,7 +53,9 @@
     justify-content: center;
 }
 .subHead{
+    font-family: 'IBM Plex Sans';
     color: white;
+    font-size: 1.6rem;
 }
 
 .imgNameDiv{
@@ -68,11 +73,12 @@
     flex-wrap: wrap;
     justify-content: center;
     position: absolute;
-    bottom: -3rem;
+    bottom: -4rem;
 }
 
 
 .name{
+    font-family: 'IBM Plex Sans';
     text-align: center;
     font-size: 1.2rem;
     margin: 2rem;
@@ -100,7 +106,10 @@
     color: white;
     padding: 0.5rem;
 }
-
+.linkedinIcon{
+    width: 35px;
+    margin: 1rem;
+}
 .seeMoreBtn:hover{
     background-color: rgba(75, 75, 75, 1);
     transition-duration: 50ms;
@@ -112,7 +121,7 @@
 }
 .imgNameDiv:hover .detailsDiv{
 
-    transform: translate(0,-50%);
+    transform: translate(0,-60%);
     transition-duration: 500ms;
 }
 .imgNameDiv:hover .img1{

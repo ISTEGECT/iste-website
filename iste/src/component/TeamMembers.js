@@ -2,7 +2,7 @@ import ProfJeena from '../assets/ProfJeenaJohn.jpg';
 import Arya from '../assets/ARYA.jpg';
 import Vaibhavi from '../assets/VAIBHAVI.jpg';
 import Vismaya from '../assets/VISMAYA.jpg';
-import linkedin from '../assets/icon-linkedin.svg';
+import linkedin from '../assets/linkedin.svg';
 import './TeamMembers.css';
 
 const profile = () => {
@@ -25,7 +25,7 @@ const profile = () => {
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
                                     <h1 className="name">Prof. Jeena John</h1>
-                                    <img className="linkedinImg" src={linkedin} alt=""></img>
+                                    <img className="linkedinIcon" src={linkedin} alt=""></img>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ const profile = () => {
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
                                     <h1 className="name">Arya Ramachandran</h1>
-                                    <img className="linkedinImg" src={linkedin} alt=""></img>
+                                    <img className="linkedinIcon" src={linkedin} alt=""></img>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ const profile = () => {
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
                                     <h1 className="name">Vaibhavi G Rao</h1>
-                                    <img className="linkedinImg" src={linkedin} alt=""></img>
+                                    <img className="linkedinIcon" src={linkedin} alt=""></img>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ const profile = () => {
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
                                     <h1 className="name">Vismaya S Nair</h1>
-                                    <img className="linkedinImg" src={linkedin} alt=""></img>
+                                    <img className="linkedinIcon" src={linkedin} alt=""></img>
                                 </div>
                             </div>
                         </div>
