@@ -6,16 +6,25 @@ import './Map.css'
 
 export default function Map() {
   const [state, handleSubmit] = useForm("mwkjegaq");
-
+  let valid = 1;
   const onClick = () => {
+    let nameObj=document.getElementById("name");
+    let emailObj=document.getElementById("email");
+    let messageObj=document.getElementById("message");
+    if(!(nameObj.checkValidity() & emailObj.checkValidity() & messageObj.checkValidity())){
+      alert("Invalid entry");
+      valid = 0;
+    }
     setTimeout(function () {
-      if (state.succeeded) {
-        alert("Message sent");
-        document.getElementById("name").value = "";
-        document.getElementById("email").value = "";
-        document.getElementById("message").value = "";
-      } else {
-        alert("Failed!!! Try again");
+      if (valid === 1) {
+        if (state.succeeded) {
+          alert("Message sent");
+          nameObj.value = "";
+          emailObj.value = "";
+          messageObj.value = "";
+        } else {
+          alert("Failed!!! Try again");
+        }
       }
     }, 1000);
   }
