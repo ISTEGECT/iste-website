@@ -93,7 +93,7 @@
     position: absolute;
     background-image: linear-gradient(transparent,transparent,rgba(0,0,0,0.8));
 }
-.seeMoreDiv{
+/* .seeMoreDiv{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,7 +105,7 @@
     background-color: rgba(100, 100, 100, 1);
     color: white;
     padding: 0.5rem;
-}
+} */
 .linkedinIcon{
     width: 35px;
     margin: 1rem;
