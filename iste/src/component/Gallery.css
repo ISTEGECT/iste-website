@@ -13,7 +13,7 @@
   width: 100%;
   /* background: linear-gradient(0deg, #000, #272727); */
   font-weight: 700;
-  font-size: 6vw;
+  font-size: 5vw;
   line-height: 13vw;
   /* width: 70vw; */
   
@@ -105,7 +105,7 @@ background-image: linear-gradient(270deg, rgb(0, 0, 0),rgb(66, 66, 66), rgb(167,
 
 font-style: normal;
 font-weight: 100;
-font-size: 2vw;
+font-size: 1vw;
 line-height: 60.2%;
 /* padding-top: 4vw; */
 overflow: hidden;
@@ -210,26 +210,26 @@ box-shadow: 0px 5px rgb(98, 96, 96);
   letter-spacing: 0.4vw;
 }
 @media (max-width: 575.98px) { 
-  .arrow{
+  /* .arrow{
     height: 4vw;
     width: 4vw;
     background-color: transparent;
-  }
+  } */
   
   .prev svg{
-    height: 3vw;
-   width: 3vw;
+    /* height: 3vw;
+   width: 3vw; */
     position: relative;
     bottom: 1.2vw;
-    right: 1.8vw;
+    right: 0.1vw;
     transition: color 300ms;
   }
   .next svg{
-    height: 3vw;
-    width: 3vw;
+    /* height: 3vw;
+    width: 3vw; */
     position: relative;
     bottom: 1.2vw;
-    right: 3.5vw;
+    right: 2vw;
     transition: color 300ms;
   }
   }

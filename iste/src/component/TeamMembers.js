@@ -76,9 +76,9 @@ const profile = () => {
                         </div>
                     </div>
                 </div>
-                <div className="seeMoreDiv">
+                {/* <div className="seeMoreDiv">
                     <a href=''><button className="seeMoreBtn">See More</button></a>
-                </div>
+                </div> */}
             </div>
         </>
     );
