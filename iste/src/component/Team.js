@@ -1,15 +1,26 @@
+import React from 'react';
 import ProfJeena from '../assets/ProfJeenaJohn.jpg';
 import Arya from '../assets/ARYA.jpg';
 import Vaibhavi from '../assets/VAIBHAVI.jpg';
 import Vismaya from '../assets/VISMAYA.jpg';
 import linkedin from '../assets/linkedin.svg';
-import './TeamMembers.css';
+import './Team.css';
 
-const profile = () => {
-   
+
+export default function Profile() {
+    const [isVisible, setVisible] = React.useState(true);
+    const domRef = React.useRef();
+    React.useEffect(() => {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => setVisible(entry.isIntersecting));
+      });
+      observer.observe(domRef.current);
+      return () => observer.unobserve(domRef.current);
+    }, []);
     return (
-        <>
-            <div className="container" id='team'>
+        
+            <div className={`container fade-in-section ${isVisible ? 'is-visible' : ''}`}
+            ref={domRef} id='team'>
                 <div className="mainHeadDiv">
                     <h1 className="mainHead">ISTE GECT EXECOM'23</h1>
                 </div>
@@ -81,8 +92,7 @@ const profile = () => {
                     <a href=''><button className="seeMoreBtn">See More</button></a>
                 </div> */}
             </div>
-        </>
+        
     );
 };
 
-export default profile;

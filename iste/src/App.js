@@ -8,7 +8,7 @@ import Gallery from './component/Gallery';
 import {Upcoming} from './component/Upcoming';
 import Map from './component/Map';
 import Footer from "./component/Footer";
-import Team from "./component/TeamMembers"
+import Team from "./component/Team"
 
 function App() {
 

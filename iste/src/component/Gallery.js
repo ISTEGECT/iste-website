@@ -3,7 +3,7 @@ import "./Gallery.css";
 import Slider from 'react-slick';
 import content from './Data';
 import { AiFillLeftCircle,AiFillRightCircle } from "react-icons/ai";
-import { FaRegCalendarAlt,FaMapMarkerAlt} from "react-icons/fa";
+import { FaRegCalendarAlt,FaVideo} from "react-icons/fa";
 
 // import { FaRegCalendarAlt,FaAngleRight,FaAngleLeft,FaMapMarkerAlt} from "react-icons/fa";
 
@@ -15,7 +15,7 @@ export default function Gallery() {
       entries.forEach(entry => setVisible(entry.isIntersecting));
     });
     observer.observe(domRef.current);
-    return () => observer.observe(domRef.current);
+    return () => observer.unobserve(domRef.current);
   }, []);
   const NextArrow = ({ onClick }) => {
     return (
@@ -66,7 +66,7 @@ export default function Gallery() {
              <h2 className='content'style={{fontSize:'3vw'}}>{element.title}</h2>
               <p style={{fontSize:'1.7vw',marginTop:'2vw',fontWeight:'10'}}>{element.content}</p>
               <p style={{color:'rgb(213, 28, 28)',fontSize:'2vw',marginTop:'2vw'}}><FaRegCalendarAlt style={{marginRight:'10px',color:'rgb(213, 28, 28)'}}/>{element.date}</p>
-              <p style={{fontSize:'1.5vw'}}><FaMapMarkerAlt style={{marginRight:'2vw'}}/>{element.state}</p>
+              <p style={{fontSize:'1.5vw'}}><FaVideo style={{marginRight:'1vw',marginLeft:'.3vw',height:'1.2vw'}}/>{element.state}</p>
               
              </div>
             </div>
