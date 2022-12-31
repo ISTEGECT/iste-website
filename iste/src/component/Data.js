@@ -70,7 +70,7 @@ import discussion from '../assets/discussion.jpeg'
     { 
       image:launchpad,
       title:"LAUNCHPAD",
-      content:"Launchpad Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ea repellendus illo possimus nam, praesentium iste labore officia neque enim, autem deserunt aut, libero qui in aspernatur. At, delectus consequuntur.",
+      content:"ISTE GECT Students Chapter conducted “LAUNCHPAD” -a 5 day placement oriented Python bootcamp along with coding practices from 11th October 2022 -15th October 2022 ,volunteered by the students of CSE-Forum. We received a very good feedback from all the participants ,mainly regarding the mentoring and successful coordination. Certificates for the participants were provided",
       date:"5/06/2022",
       state:"offline"
     },
@@ -91,7 +91,7 @@ import discussion from '../assets/discussion.jpeg'
     { 
       image:discussion ,
       title:"DISCUSSION",
-      content:"discussion  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis ea repellendus illo possimus nam, praesentium iste labore officia neque enim, autem deserunt aut, libero qui in aspernatur. At, delectus consequuntur.",
+      content:"ISTE GECT Students Chapter conducted “ROUND TABLE - A Technical Group Discussion” on 18th September 2022 at 7pm as part of celebrating National Engineer’s Day in association with 2013 Alumni of GEC Thrissur. A great participation of 22 students was recorded. We also got a very good feedback from all of them about the smart selection of topics and successful coordination.",
       date:"5/06/2022",
       state:"offline"
     },
