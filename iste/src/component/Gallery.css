@@ -197,11 +197,13 @@ box-shadow: 0px 5px rgb(98, 96, 96);
 .next {
   right: 0%;
   top: 35%;
+  z-index: 0;
 } 
 
 .prev {
   left: 0%;
   top: 35%;
+  z-index: 0;
   
 }
 .content{
@@ -223,6 +225,7 @@ box-shadow: 0px 5px rgb(98, 96, 96);
     bottom: 1.2vw;
     right: 0.1vw;
     transition: color 300ms;
+    
   }
   .next svg{
     /* height: 3vw;
@@ -231,6 +234,7 @@ box-shadow: 0px 5px rgb(98, 96, 96);
     bottom: 1.2vw;
     right: 2vw;
     transition: color 300ms;
+    
   }
   }
   

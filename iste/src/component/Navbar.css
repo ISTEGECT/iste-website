@@ -132,7 +132,7 @@ color: rgb(209, 80, 232);
       /* z-index: 9; */
       height: 60vw;
       top: 100%;
-      right: 0%;
+      right: -1%;
       /* margin-left: 50%; */
       display: flex;
       /* margin-top: 52vw; */
@@ -145,6 +145,7 @@ color: rgb(209, 80, 232);
  }
  .showMenu .but{
   width: 100%;
+  font-size: 2.5vw;
   border-radius: 0%;
   background-color: rgb(50, 51, 52);
   border-bottom: rgb(0, 0, 0) 1px solid;
