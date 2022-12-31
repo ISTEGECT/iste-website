@@ -6,13 +6,8 @@ import Vismaya from '../assets/VISMAYA.jpg';
 import linkedin from '../assets/linkedin.svg';
 import './Team.css';
 
-<<<<<<< HEAD:iste/src/component/TeamMembers.js
-import React from 'react';
- const profile = () => {
-   
-=======
 
-export default function Profile() {
+export default function Team() {
     const [isVisible, setVisible] = React.useState(true);
     const domRef = React.useRef();
     React.useEffect(() => {
@@ -22,7 +17,6 @@ export default function Profile() {
       observer.observe(domRef.current);
       return () => observer.unobserve(domRef.current);
     }, []);
->>>>>>> 385e19cd92d2b751d08ca4c4d891862a49f5e2b0:iste/src/component/Team.js
     return (
         
             <div className={`container fade-in-section ${isVisible ? 'is-visible' : ''}`}
@@ -101,9 +95,3 @@ export default function Profile() {
         
     );
 };
-
-<<<<<<< HEAD:iste/src/component/TeamMembers.js
-export default profile;
-
-=======
->>>>>>> 385e19cd92d2b751d08ca4c4d891862a49f5e2b0:iste/src/component/Team.js

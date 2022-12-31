@@ -99,8 +99,7 @@ color: rgb(209, 80, 232);
  nav{
   display: flex;
   align-items: center;
-   
-  
+  height: 10vw;
  }
 
  .tog{

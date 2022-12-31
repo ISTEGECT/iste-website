@@ -59,7 +59,7 @@
 }
 
 .imgNameDiv{
-    margin: 2.5rem;
+    margin: 3vw;
     display: flex;
     position: relative;
     justify-content: center;
@@ -139,4 +139,10 @@
     .xl\:grid-cols-4{
         grid-template-columns: repeat(4,minmax(0,1fr));
     }
+}
+@media only screen and (max-width:500px){
+    .imgNameDiv{
+        margin: 4vw;
+    }
+    
 }
