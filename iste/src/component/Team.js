@@ -17,6 +17,7 @@ export default function Team() {
       observer.observe(domRef.current);
       return () => observer.unobserve(domRef.current);
     }, []);
+
     return (
         
             <div className={`container fade-in-section ${isVisible ? 'is-visible' : ''}`}
@@ -94,4 +95,4 @@ export default function Team() {
             </div>
         
     );
-};
+            }

@@ -10,22 +10,24 @@ import Map from './component/Map';
 import Footer from "./component/Footer";
 import Team from "./component/Team"
 
+
 function App() {
 
   return(
 
     <div className="App">
      
-     <Navbar/>
-     <Home />
-     <Details/>
-     <About/>
-     <Gallery/>
-     <Upcoming/>
-     <Team/>
-     <Map/>
-      <Footer/>
-    
+              <Navbar/>
+              <Home/>
+              <Details/>
+              <About/>
+              <Gallery/>
+              <Upcoming/>
+              <Team/>
+              <Map/>
+              <Footer/>
+   
+     
    </div>
   );
    
