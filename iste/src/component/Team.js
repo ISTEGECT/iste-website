@@ -7,7 +7,7 @@ import linkedin from '../assets/linkedin.svg';
 import './Team.css';
 
 
-export default function Profile() {
+export default function Team() {
     const [isVisible, setVisible] = React.useState(true);
     const domRef = React.useRef();
     React.useEffect(() => {
