@@ -64,7 +64,7 @@ export default function Gallery() {
              </div>
              <div className="part2">
              <h2 className='content'style={{fontSize:'3vw'}}>{element.title}</h2>
-              <p style={{fontSize:'1.7vw',marginTop:'2vw',fontWeight:'10'}}>{element.content}</p>
+              <p style={{fontSize:'1.24vw',marginTop:'2vw',fontWeight:'10'}}>{element.content}</p>
               <p style={{color:'rgb(213, 28, 28)',fontSize:'2vw',marginTop:'2vw'}}><FaRegCalendarAlt style={{marginRight:'10px',color:'rgb(213, 28, 28)'}}/>{element.date}</p>
               <p style={{fontSize:'1.5vw'}}><FaVideo style={{marginRight:'1vw',marginLeft:'.3vw',height:'1.2vw'}}/>{element.state}</p>
               

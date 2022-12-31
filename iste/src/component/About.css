@@ -43,6 +43,7 @@
     text-align:'center';
     text-shadow: rgb(209, 80, 232) 3px 1px 1px;
     letter-spacing: 0.4vw;
+    font-size: 3.5vw;
 }
 .col2{
     width: 30%;
@@ -68,6 +69,8 @@
     text-align:'center';
     text-shadow: rgb(209, 80, 232) 3px 1px 1px;
     letter-spacing: 0.4vw;
+    font-size: 3.5vw;
+
 }
 .imgabt{
     height: 25vw;
