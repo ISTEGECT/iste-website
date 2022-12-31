@@ -63,19 +63,36 @@ font-weight: 700;
 .box:nth-child(5){
   /* background-image: linear-gradient(180deg, rgb(209, 80, 232),#f8f8f8); */
   background-image: linear-gradient(180deg, rgb(209, 80, 232),#232323);
+  height: 18vw;
+  width: 18vw;
+  top: 14.5vw;
+  left: 9vw;
+}
+.box:nth-child(6){
+  /* background-image: linear-gradient(180deg, rgb(209, 80, 232),#f8f8f8); */
+  background-image: linear-gradient(180deg, rgb(209, 80, 232),#232323);
   height: 13vw;
   width: 13vw;
   top: 17vw;
   left: 15vw;
 }
-.box:nth-child(6){
+.box:nth-child(7){
   /* background-image: linear-gradient(180deg, rgb(209, 80, 232),#f8f8f8); */
   background-image: linear-gradient(180deg, rgb(209, 80, 232),#232323);
   height: 10vw;
   width: 10vw;
   top: 18.5vw;
-  left: 18vw;
+  left: 18.5vw;
 }
+.box:nth-child(8){
+  /* background-image: linear-gradient(180deg, rgb(209, 80, 232),#f8f8f8); */
+  background-image: linear-gradient(180deg, rgb(209, 80, 232),#232323);
+  height: 7vw;
+  width: 7vw;
+  top: 20vw;
+  left: 22vw;
+}
+
 
 
 

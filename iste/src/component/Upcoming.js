@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import Carousel from "react-spring-3d-carousel";
 import nueva from '../assets/nueva.jpeg';
 import nueva2 from '../assets/nueva2.jpeg';
-import posterdesign from '../assets/posterdesigning.jpeg';
+import Bigo from '../assets/Bigo.jpeg';
+import Blockchain from '../assets/Blockchain.jpeg';
 import { v4 as uuidv4} from 'uuid';
 import { config } from "react-spring";
 import './Upcoming.css';
@@ -35,16 +36,13 @@ export const Upcoming = () => {
     },
     {
       key: uuidv4(),
-      content: <img src={posterdesign} alt="3" className="Uevent" />
+      content: <img src={Bigo} alt="3" className="Uevent" />
     },
     {
       key: uuidv4(),
-      content: <img src="https://picsum.photos/800/500/?random" className="Uevent"  alt="4" />
+      content: <img src={Blockchain} className="Uevent"  alt="4" />
     },
-    {
-      key: uuidv4(),
-      content: <img src="https://picsum.photos/800/804/?random" className="Uevent" alt="5" />
-    },
+    
     
   ].map((slide, index) => {
     return { ...slide, onClick: () => setState({ goToSlide: index }) };

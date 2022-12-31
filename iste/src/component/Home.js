@@ -15,7 +15,8 @@ const Home = () => {
     <div className="box"></div>
     <div className="box"></div>
     <div className="box"></div>
-
+    <div className="box"></div>
+    <div className="box"></div>
    </div>
     <svg viewBox="0 0 960 300" className="svgheading">
   <symbol id="s-text">
