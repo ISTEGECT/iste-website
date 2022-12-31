@@ -5,7 +5,8 @@ import Vismaya from '../assets/VISMAYA.jpg';
 import linkedin from '../assets/linkedin.svg';
 import './TeamMembers.css';
 
-const profile = () => {
+ profile = () => {
+   
     return (
         <>
             <div className="container" id='team'>
@@ -25,7 +26,7 @@ const profile = () => {
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
                                     <h1 className="name">Prof. Jeena John</h1>
-                                    <img className="linkedinIcon" src={linkedin} alt=""></img>
+                                    <a href="https://www.linkedin.com/in/jeena-john-6420b3171"><img className="linkedinIcon" src={linkedin} alt=""></img></a>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +41,7 @@ const profile = () => {
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
                                     <h1 className="name">Arya Ramachandran</h1>
-                                    <img className="linkedinIcon" src={linkedin} alt=""></img>
+                                    <a href="https://www.linkedin.com/in/arya-ramachandran-968aa41b3"><img className="linkedinIcon" src={linkedin} alt=""></img></a>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +56,7 @@ const profile = () => {
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
                                     <h1 className="name">Vaibhavi G Rao</h1>
-                                    <img className="linkedinIcon" src={linkedin} alt=""></img>
+                                    <a href="https://www.linkedin.com/in/vaibhavi-g-rao-1a7752205"><img className="linkedinIcon" src={linkedin} alt=""></img></a>
                                 </div>
                             </div>
                         </div>
@@ -70,18 +71,19 @@ const profile = () => {
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
                                     <h1 className="name">Vismaya S Nair</h1>
-                                    <img className="linkedinIcon" src={linkedin} alt=""></img>
+                                    <a href="https://www.linkedin.com/in/vismaya-santhosh-8960b6222"><img className="linkedinIcon" src={linkedin} alt=""></img></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="seeMoreDiv">
+                {/* <div className="seeMoreDiv">
                     <a href=''><button className="seeMoreBtn">See More</button></a>
-                </div>
+                </div> */}
             </div>
         </>
     );
 };
 
 export default profile;
+

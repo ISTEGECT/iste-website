@@ -8,6 +8,15 @@ import { config } from "react-spring";
 import './Upcoming.css';
 
 export const Upcoming = () => {
+  const [isVisible, setVisible] = React.useState(true);
+  const domRef = React.useRef();
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+    observer.observe(domRef.current);
+    return () => observer.observe(domRef.current);
+  }, []);
   const [state, setState] = useState({
     goToSlide: 0,
     offsetRadius: 2,
@@ -90,7 +99,8 @@ export const Upcoming = () => {
     yDown = null;
   };
 
-  return (<div className="upcoming">
+  return (<div className={`upcoming fade-in-section ${isVisible ? 'is-visible' : ''}`}
+  ref={domRef}>
     <div className="head">
     <h1 className='eventHeading' style={{textAlign:'center',color:'white'}}>Upcoming Events</h1>
     </div>

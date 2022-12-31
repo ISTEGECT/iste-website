@@ -8,10 +8,19 @@ import { FaRegCalendarAlt,FaMapMarkerAlt} from "react-icons/fa";
 // import { FaRegCalendarAlt,FaAngleRight,FaAngleLeft,FaMapMarkerAlt} from "react-icons/fa";
 
 export default function Gallery() {
+  const [isVisible, setVisible] = React.useState(true);
+  const domRef = React.useRef();
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+    observer.observe(domRef.current);
+    return () => observer.observe(domRef.current);
+  }, []);
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
-        <AiFillRightCircle />
+        <AiFillRightCircle style={{height:"3vw",width:"3vw"}}/>
       </div>
     );
   };
@@ -19,7 +28,7 @@ export default function Gallery() {
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev" onClick={onClick} >
-        <AiFillLeftCircle  />
+        <AiFillLeftCircle style={{height:"3vw",width:"3vw"}} />
       </div>
     );
   };
@@ -36,9 +45,11 @@ export default function Gallery() {
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
    };
+
   return (
     <div className="Maingallery" id='events'>
-            <div className="heading"><h1 className='galleryHeading' style={{textAlign:'center',color:'white'}}>
+            <div className={`heading fade-in-section ${isVisible ? 'is-visible' : ''}`}
+    ref={domRef}><h1 className='galleryHeading' style={{textAlign:'center',color:'white'}}>
             Previous Events</h1></div>
 
     <div className='Gallery' style={{color:'white'}}>
@@ -55,7 +66,7 @@ export default function Gallery() {
              <h2 className='content'style={{fontSize:'3vw'}}>{element.title}</h2>
               <p style={{fontSize:'1.7vw',marginTop:'2vw',fontWeight:'10'}}>{element.content}</p>
               <p style={{color:'rgb(213, 28, 28)',fontSize:'2vw',marginTop:'2vw'}}><FaRegCalendarAlt style={{marginRight:'10px',color:'rgb(213, 28, 28)'}}/>{element.date}</p>
-              <p style={{fontSize:'1.5vw'}}><FaMapMarkerAlt style={{marginRight:'2vw'}}/>GECT Campus,Thrissur</p>
+              <p style={{fontSize:'1.5vw'}}><FaMapMarkerAlt style={{marginRight:'2vw'}}/>{element.state}</p>
               
              </div>
             </div>

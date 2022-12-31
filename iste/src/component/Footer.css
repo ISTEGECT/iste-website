@@ -1,6 +1,9 @@
 .Footer{
     background-color: rgb(65, 63, 63);
     display: flex;
+    cursor: pointer;
+    width: 100%;
+  
 }
 .logofoot img{
     width: 30vw;
@@ -49,6 +52,7 @@
     flex-direction: column;
     align-items: center;
     color: white;
+    cursor: pointer;
 }
 
 .icons{
@@ -56,7 +60,7 @@
     width: 65%;
     display: flex;
     justify-content: space-between;
-    
+    cursor: pointer;
 
 
 }
