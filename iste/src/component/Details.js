@@ -1,6 +1,5 @@
 import './Details.css';
-
-import React from 'react'
+import React from 'react';
 export default function Details() {
   const [isVisible, setVisible] = React.useState(true);
   const domRef = React.useRef();
