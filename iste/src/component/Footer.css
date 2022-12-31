@@ -2,25 +2,26 @@
     background-color: rgb(65, 63, 63);
     display: flex;
     cursor: pointer;
+    height: 10vw;
     width: 100%;
   
 }
 .logofoot img{
     width: 30vw;
-    /* color: black; */
+    padding-top: 1vw;
 
      
 }
 
 .logofoot {
-    /* background-color: red; */
-    width: 33vw;
-    height: 15vw;
-    /* padding-left: 10px; */
-    display: flex;
-    justify-content: center;
-    /* justify-content: space-around; */
-    align-items: center;
+        /* background-color: red; */
+        width: 33vw;
+        /* height: 15vw; */
+        /* padding-left: 10px; */
+        display: flex;
+        justify-content: center;
+        /* justify-content: space-around; */
+        align-items: center;
 }
 .enquiry{
     display: flex;
@@ -57,7 +58,7 @@
 
 .icons{
     /* background-color: chocolate; */
-    width: 65%;
+    width: 55%;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
@@ -67,6 +68,7 @@
 
 .social{
     font-size: 2vw;
+    margin-bottom: 1vw;
 }
 .icons a:hover{
     box-shadow: 0 0 11px rgb(255, 255, 255); 
@@ -78,7 +80,7 @@
 
 @media only screen and (max-width: 600px) {
     .Footer{
-        
+        height: 25vw;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -86,10 +88,11 @@
     .logofoot{
         /* background-color: red; */
         width: 100%;
+        height: 50%;
 
     }
     .logofoot img{
-        width: 60vw;
+        width: 50%;
         /* color: black; */
     }
     .enquiry{
@@ -108,6 +111,7 @@
     }
     .social{
         font-size: 5vw;
+        margin-top: 1vw;
         padding-bottom: 0px;
     }
     .icons{

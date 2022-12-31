@@ -26,12 +26,13 @@ const Footer = () => {
          */}
        </div>
         <div className="links">
-            
+            <h1 className="social">Social Links</h1>
             <div className="icons">
-        <a href="Instagram"><FaInstagramSquare  style={style} className="icon"/></a>
-        <a href="LinkedIn"><FaLinkedin  style={style}/></a>
-        <a href="twitter"><FaFacebookSquare  style={style}/></a>
-        <a href="twitter"><FaTwitterSquare  style={style}/></a></div>
+        <a href="https://www.instagram.com/iste_gect/"><FaInstagramSquare  style={style} className="icon"/></a>
+        <a href="https://www.linkedin.com/company/iste-gec-students-chapter/"><FaLinkedin  style={style}/></a>
+        <a href="https://www.facebook.com/IsteGecChapter"><FaFacebookSquare  style={style}/></a>
+        {/* <a href="twitter"><FaTwitterSquare  style={style}/></a> */}
+        </div>
         </div>
 
     </div> );
