@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem;
+    padding: 3rem 3rem 5rem;
 }
 
 .mainHead{
@@ -19,7 +19,7 @@
     text-align: center;
     color: white;
     text-shadow: rgb(209, 80, 232) 3px 1px 1px ;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 .imgDiv{
     height: 15rem;
@@ -144,5 +144,10 @@
     .imgNameDiv{
         margin: 4vw;
     }
-    
+    .mainHead{
+        font-size: 3rem;
+    }
+    .subHead{
+        font-size: 1.4rem;
+    }
 }
