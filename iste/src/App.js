@@ -11,7 +11,8 @@ import Footer from "./component/Footer";
 import Team from "./component/Team"
 
 
-function App() {
+
+export default function App() {
 
   return(
 
@@ -34,4 +35,4 @@ function App() {
    
 }
 
-export default App;
+
