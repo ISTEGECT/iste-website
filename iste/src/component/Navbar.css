@@ -99,8 +99,7 @@ color: rgb(209, 80, 232);
  nav{
   display: flex;
   align-items: center;
-   
-  
+  height: 10vw;
  }
 
  .tog{
@@ -110,10 +109,21 @@ color: rgb(209, 80, 232);
   margin-left: 93%;
   z-index: 10;
  }
+ .logo img{
+  width: 6vw;
+  height: 6vw;
+ }
+ .logo p {
+  font-size: 3.5vw;
+  color: white;
+}
  .showMenu p{
   display: block;
   transition: 0.3s;
 
+ }
+ .logo {
+  width: 14%;
  }
  .showMenu{
       width: 100%;

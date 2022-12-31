@@ -6,7 +6,10 @@ import Vismaya from '../assets/VISMAYA.jpg';
 import linkedin from '../assets/linkedin.svg';
 import './Team.css';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 38732011ce685f59d1c63f3801664872299a2512
 
 export default function Team() {
     const [isVisible, setVisible] = React.useState(true);
@@ -18,7 +21,10 @@ export default function Team() {
       observer.observe(domRef.current);
       return () => observer.unobserve(domRef.current);
     }, []);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 38732011ce685f59d1c63f3801664872299a2512
     return (
         
             <div className={`container fade-in-section ${isVisible ? 'is-visible' : ''}`}
@@ -96,5 +102,9 @@ export default function Team() {
             </div>
         
     );
+<<<<<<< HEAD
 };
 
+=======
+};
+>>>>>>> 38732011ce685f59d1c63f3801664872299a2512
