@@ -15,7 +15,7 @@ export const Upcoming = () => {
       entries.forEach(entry => setVisible(entry.isIntersecting));
     });
     observer.observe(domRef.current);
-    return () => observer.observe(domRef.current);
+    return () => observer.unobserve(domRef.current);
   }, []);
   const [state, setState] = useState({
     goToSlide: 0,

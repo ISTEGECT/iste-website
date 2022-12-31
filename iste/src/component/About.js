@@ -10,7 +10,7 @@ export default function About() {
       entries.forEach(entry => setVisible(entry.isIntersecting));
     });
     observer.observe(domRef.current);
-    return () => observer.observe(domRef.current);
+    return () => observer.unobserve(domRef.current);
   }, []);
   return (
     <div className={`About fade-in-section ${isVisible ? 'is-visible' : ''}`}
