@@ -126,7 +126,7 @@ color: rgb(209, 80, 232);
   width: 14%;
  }
  .showMenu{
-      width: 100%;
+      width: 50%;
       position: absolute;
       background-color: #1e1e1f;
       /* z-index: 9; */
