@@ -17,15 +17,20 @@ export default function Details() {
     
        <div className="vision " >
          <h1 >Vision</h1>
-         <div className='Dcontent'>To enable learners to grow in a connected world by building a passionate community, linking educators and partners, utilising information and experience, improving learning and teaching practices on a constant basis.</div>
+         <div className='Dcontent'>
+         An experience that boosts creative minds to deal with dynamic technology.          </div>
        </div>
        <div className="mission">
        <h1>Mission</h1>
-       <div className='Dcontent'>To enable learners to grow in a connected world by building a passionate community, linking educators and partners, utilising information and experience, improving learning and teaching practices on a constant basis.</div>
+       <div className='Dcontent'>
+       To empower learners to create and flourish in a connected world, leveraging knowledge and expertise, developing innovative ways to teach and learn proactively, and enriching skills among all members.          </div>
        </div>
        <div className="announcement ">
         <h1>Announcement</h1>
-        <div className='Dcontent'>To enable learners to grow in a connected world by building a passionate community, linking educators and partners, utilising information and experience, improving learning and teaching practices on a constant basis.</div>
+        <div className='Dcontent'>
+        *NUEVA '23, 21st Annual ISTE State Students' Convention, is coming live on our campus soon.   <br></br>  
+*Pre-workshops as part of NUEVA '23 are happening now.
+          </div>
        </div>
     </div>
   )

@@ -112,6 +112,17 @@
 .announcement h1{
   text-shadow: rgb(209, 80, 232) 3px 1px 1px ;
 }
+@media screen and (min-width:768px) {
+.Details h1{
+  font-size: 1.6rem;
+}
+.vision h1{
+  font-size: 1.6rem;
+}
+.announcement h1{
+  font-size: 1.6rem;
+}
+}
 
 @media screen and (max-width:600px){
 .Details{

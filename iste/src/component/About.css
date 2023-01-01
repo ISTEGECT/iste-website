@@ -27,7 +27,7 @@
    
 }
 .col1{
-    width:70% ;
+    width:65% ;
     padding: 2vw;
     box-shadow: -1px -1px 0px 0px  rgb(98, 96, 96);
     border: 0.2vw solid;
@@ -47,8 +47,12 @@
     font-size: 2rem;
     
 }
+.col1 p{
+  margin-top: 3vw;
+  text-align: left;
+}
 .col2{
-    width: 30%;
+    width: 35%;
     
     
 }
@@ -76,10 +80,13 @@
     font-size: 2rem;
 
 }
+.col4 p{
+    margin-top: 3vw;
+}
 .imgabt{
-    height: 25vw;
-    width: 25vw;
-    margin-left: 2vw;
+    height: 35vw;
+    width: 35vw;
+    margin-left: 0vw;
     
 }
 .imgobj{
@@ -87,26 +94,16 @@
     width: 25vw;
     margin-top: 5vw;
     }
-    @media screen and (min-width:768px) {
-        .About{
-            height: 80vw;
-        }
-        .row1{
-            height: 40vw;
-        }
-        .row2{
-            height: 40vw;
-        }
-    }
+  
     @media screen and (max-width:768px) {
         .About{
-            height: 300vw;
+            height: 160vw;
             width: 100%;
             margin-top: 10vw;
 
         }
         .row1{
-            height: 150vw;
+            height: 70vw;
             display: flex;
             flex-direction: column-reverse;
             box-shadow: -2px -1px 0px 0px  rgb(98, 96, 96);
@@ -121,10 +118,18 @@
         }
         .row2{
            
-            height: 150vw;
+            height: 70vw;
             display: flex;
             flex-direction: column;
             padding-bottom: 3vw;
+            box-shadow: 0.5px 0.5px  rgb(98, 96, 96);
+           
+            border: 0.3vw solid ;
+            border-top: none;
+            border-left: none;
+            border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+            animation: borderRotate var(--d) linear infinite forwards;
+            
         }
         .col1{
             height: 100vw;
@@ -132,6 +137,11 @@
             box-shadow: none;
             border: none;
         }
+        
+        .col1 p{
+            margin-top: 3vw;
+            text-align: center;
+          }
         .col2{
             height: 50vw;
             width: 100%;
@@ -145,6 +155,8 @@
         .col4{
             height: 100vw;
             width: 100%;
+            border: none;
+            box-shadow: none;
         }
         .imgabt{
             height: 40vw;
@@ -157,6 +169,60 @@
             margin-left: 30vw;
             }
     }
+    @media screen and (max-width:575px){
+        .About{
+            height: 180vw;
+            width: 100%;
+           
+            
+
+        }
+        .row1{
+            height: 80vw;
+           
+        }
+        
+        .row2{
+            height: 80vw;
+            box-shadow: 0.5px 0.5px  rgb(98, 96, 96);
+           
+            border: 0.3vw solid ;
+            border-top: none;
+            border-left: none;
+            border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+            animation: borderRotate var(--d) linear infinite forwards;
+            
+          
+            
+        }
+        .col1{
+            height: 30vw;
+            
+        }
+        .col1 p{
+            margin-top: 6vw;
+        }
+        .col2{
+            height: 40vw;
+            border-bottom: none;
+            border-right: none;
+            
+        }
+        .col3{
+            height: 40vw;
+        }
+        .col4{
+            height: 40vw;
+            margin-top: 4vw;
+            box-shadow: none;
+            border: none;
+        }
+        .col4 p{
+           margin-top: 6vw;
+        }
+        
+    }
+    
 
 
    
