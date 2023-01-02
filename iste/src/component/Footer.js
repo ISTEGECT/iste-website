@@ -1,7 +1,7 @@
 import "./Footer.css";
 import React from 'react';
 import { FaInstagramSquare } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
+// import { FaTwitterSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 // import {Link } from "react-scroll";

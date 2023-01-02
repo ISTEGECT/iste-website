@@ -1,6 +1,6 @@
 import React from 'react'
 import './Animation.css';
-export default function () {
+export default function Animation () {
 
   return (
 

@@ -10,11 +10,13 @@ export default function Team() {
     const [isVisible, setVisible] = React.useState(true);
     const domRef = React.useRef();
     React.useEffect(() => {
+      let observerRefValue = null;
       const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => setVisible(entry.isIntersecting));
       });
-      observer.observe(domRef.current);
-      return () => observer.unobserve(domRef.current);
+      observerRefValue=domRef.current;
+      observer.observe(observerRefValue);
+      return () => observer.unobserve(observerRefValue);
     }, []);
 
     return (
@@ -88,10 +90,11 @@ export default function Team() {
                         </div>
                     </div>
                 </div>
+                {/* add seeMoreBtn to connect to a new page with all execom members details */}
                 {/* <div className="seeMoreDiv">
                     <a href=''><button className="seeMoreBtn">See More</button></a>
                 </div> */}
             </div>
         
     );
-            }
+}

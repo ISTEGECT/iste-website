@@ -7,8 +7,8 @@ import design_and_define from '../assets/design_and_define.jpeg'
 import grab_the_job from '../assets/grab_the_job.jpeg'
 import circuitry from '../assets/circuitry.jpeg'
 import launchpad from '../assets/launchpad.jpeg'
-import photoshop from '../assets/photoshop.jpeg'
-import posterdesigning from '../assets/posterdesigning.jpeg'
+// import photoshop from '../assets/photoshop.jpeg'
+// import posterdesigning from '../assets/posterdesigning.jpeg'
 import discussion from '../assets/discussion.jpeg'
  const content=[
     { 

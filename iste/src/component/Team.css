@@ -110,10 +110,10 @@
     width: 35px;
     margin: 1rem;
 }
-.seeMoreBtn:hover{
+/* .seeMoreBtn:hover{
     background-color: rgba(75, 75, 75, 1);
     transition-duration: 50ms;
-}
+} */
 .imgNameDiv:hover .imgShade{
     background-image: none;
     background-color: rgba(0, 0, 0, 0.6);
