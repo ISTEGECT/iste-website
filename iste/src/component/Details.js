@@ -4,11 +4,13 @@ export default function Details() {
   const [isVisible, setVisible] = React.useState(true);
   const domRef = React.useRef();
   React.useEffect(() => {
+    let observerRefValue = null;
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => setVisible(entry.isIntersecting));
     });
-    observer.observe(domRef.current);
-    return () => observer.unobserve(domRef.current);
+    observerRefValue=domRef.current;
+    observer.observe(observerRefValue);
+    return () => observer.unobserve(observerRefValue);
   }, []);
   return (
   
