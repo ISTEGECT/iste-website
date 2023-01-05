@@ -100,9 +100,9 @@
 
 .Gallery {    
 height: 40vw;
-background-image: linear-gradient(270deg, rgb(0, 0, 0),rgb(66, 66, 66), rgb(167, 167, 167),black);
+/* background-image: linear-gradient(270deg, rgb(0, 0, 0),rgb(66, 66, 66), rgb(167, 167, 167),black); */
 
-
+background-image: linear-gradient(270deg, rgb(0 0 0),rgb(0 0 0), rgb(0 0 0),#505050);;
 font-style: normal;
 font-weight: 100;
 font-size: 1vw;

@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 
-import {Link } from "react-scroll";
+import {Link} from "react-scroll";
 const Navbar = () => {
   const [toggle,setToggle] = useState(false);
   const handleToggle = () => {
@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="but" onClick={closeMenu}><Link to="team"spy={true} smooth={true} offset={-100} duration={500}>EXECOM</Link></div>
       <div className="but" ><Link to="contact"spy={true} smooth={true} offset={-100} duration={500}>CONTACT</Link></div>
 
-
+     
       
 
 

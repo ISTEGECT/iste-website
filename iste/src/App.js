@@ -19,16 +19,16 @@ export default function App() {
     <div className="App">
      
               <Navbar/>
-              <Home/>
-              <Details/>
-              <About/>
-              <Gallery/>
-              <Upcoming/>
-              <Team/>
-              <Map/>
-              <Footer/>
-   
-     
+        <Home />
+        <Details/>
+    <About/>
+        <Gallery/>
+       <Upcoming/>
+        <Team/>
+        <Map/>
+       <Footer/> 
+        
+      
    </div>
   );
    
