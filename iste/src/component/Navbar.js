@@ -19,12 +19,12 @@ const Navbar = () => {
       <p>ISTE</p>
     </div>
     <div className={`buttons ${toggle ? "showMenu" : ""}`}>
-      <div className="but" onClick={handleToggle}><Link to="home" spy={true} smooth={true} offset={-100} duration={500}>HOME</Link></div>
-      <div className="but" onClick={closeMenu}><Link to="details"spy={true} smooth={true} offset={-138} duration={500}>DETAILS</Link></div>
-      <div className="but" onClick={closeMenu}><Link to="about"spy={true} smooth={true} offset={-100} duration={500}>ABOUT</Link></div>
-      <div className="but" onClick={closeMenu} ><Link to="events"spy={true} smooth={true} offset={-90} duration={500}>EVENTS</Link></div>
-      <div className="but" onClick={closeMenu}><Link to="team"spy={true} smooth={true} offset={-100} duration={500}>EXECOM</Link></div>
-      <div className="but" ><Link to="contact"spy={true} smooth={true} offset={-100} duration={500}>CONTACT</Link></div>
+      <Link to="home" spy={true} smooth={true} offset={-100} duration={500}><div className="but" onClick={handleToggle}>HOME</div></Link>
+      <Link to="details"spy={true} smooth={true} offset={-138} duration={500}><div className="but" onClick={closeMenu}>DETAILS</div></Link>
+      <Link to="about"spy={true} smooth={true} offset={-100} duration={500}><div className="but" onClick={closeMenu}>ABOUT</div></Link>
+      <Link to="events"spy={true} smooth={true} offset={-90} duration={500}><div className="but" onClick={closeMenu}>EVENTS</div></Link>
+      <Link to="team"spy={true} smooth={true} offset={-100} duration={500}><div className="but" onClick={closeMenu}>EXECOM</div></Link>
+      <Link to="contact"spy={true} smooth={true} offset={-100} duration={500}><div className="but" >CONTACT</div></Link>
 
      
       
