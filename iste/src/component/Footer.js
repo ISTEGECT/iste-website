@@ -6,14 +6,13 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
-    const style = { width: '4vw', height: '4vw', fill: 'white' }
+    const style = { width: '8vw', height: '8vw', fill: 'white' }
     return (<div className="Footer">
         <div className="logofoot"><img src="./ISTE.svg" alt="" />
         </div>
         <div className="enquiry">
         </div>
         <div className="links">
-            <h1 className="social">Social Links</h1>
             <div className="icons">
                 <a href="https://www.instagram.com/iste_gect/"><FaInstagramSquare style={style} className="icon" /></a>
                 <a href="https://www.linkedin.com/company/iste-gec-students-chapter/"><FaLinkedin style={style} /></a>
