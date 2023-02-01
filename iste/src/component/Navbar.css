@@ -28,7 +28,7 @@ nav{
   color: white;
 }
 .logo{
-  width: 10%;
+  width: 12vw;
   display: flex;
   align-items: center;
   /* padding: .5% 0% .5% 0%; */
@@ -101,7 +101,8 @@ color: rgb(209, 80, 232);
  nav{
   display: flex;
   align-items: center;
-  height: 10vw;
+  height: 15vw;
+  /* padding:5px; */
  }
 
  .tog{
@@ -110,13 +111,14 @@ color: rgb(209, 80, 232);
   width: 33px;
   margin-left: 93%;
   z-index: 10;
+  /* padding-right: 2vw; */
  }
  .logo img{
-  width: 6vw;
-  height: 6vw;
+  width: 10vw;
+  height: 10vw;
  }
  .logo p {
-  font-size: 3.5vw;
+  font-size: 5vw;
   color: white;
 }
  .showMenu p{
@@ -125,7 +127,14 @@ color: rgb(209, 80, 232);
 
  }
  .logo {
-  width: 14%;
+  width: 23vw;
+  display: flex;
+  align-items: center;
+  /* padding: .5% 0% .5% 0%; */
+  /* background-color: green; */
+  justify-content: space-around;
+  display: flex;
+
  }
  .showMenu{
       width: 50%;

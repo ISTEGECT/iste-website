@@ -33,7 +33,7 @@ const Navbar = () => {
 
       
     </div>
-    <div className="tog" onClick={handleToggle}>{toggle ? <MdClose  size={25}/>:<FiMenu size={25}/>}</div>
+    <div className="tog" onClick={handleToggle} >{toggle ? <MdClose  size={25}/>:<FiMenu size={25}/>}</div>
   </nav> );
 
 }
