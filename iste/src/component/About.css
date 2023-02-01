@@ -50,6 +50,7 @@
 .col1 p{
   margin-top: 3vw;
   text-align: left;
+  font-size: 1.4vw;
 }
 .col2{
     width: 35%;
@@ -201,6 +202,8 @@
         }
         .col1 p{
             margin-top: 6vw;
+            font-size: 1.9vw;
+            letter-spacing: .2vw;
         }
         .col2{
             height: 40vw;
@@ -216,6 +219,8 @@
             margin-top: 4vw;
             box-shadow: none;
             border: none;
+            font-size: 1.9vw;
+            letter-spacing: .2vw;
         }
         .col4 p{
            margin-top: 6vw;
