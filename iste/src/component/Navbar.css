@@ -69,6 +69,13 @@ font-family: 'IBM Plex Sans';
   margin-right: 1vw;
   /* position: fixed; */
 }
+.buttons a{
+  text-decoration: none;
+}
+.nueva{
+  font-weight: 600;
+color: rgb(209,80,232);
+}
 .but:hover{
  
   

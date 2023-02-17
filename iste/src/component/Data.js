@@ -56,7 +56,7 @@ import discussion from '../assets/discussion.jpeg'
     { 
       image: grab_the_job,
       title:" GRAB THE JOB",
-      content:" As part of KRANTHI’22’ the chemical forum of ISTE GECT conducted “GRAB THE GOB” a mock placement competition .The event consists of three rounds.  Round 1 was an aptitude test which included sections on various kinds. Round 2 was a Group Discussion and the final round was an interview. There were several participants and we received good feedback from all of them.",
+      content:" As part of KRANTHI’22’ the chemical forum of ISTE GECT conducted “GRAB THE GOB” a mock placement competition .The event consists of three rounds.  Round 1 was an aptitude test which included sections on various kinds. Round 2 was a Group Discussion and the final round was an interview.",
       date:"26/07/2022 & 27/07/22",
       state:"offline"
     },
@@ -78,7 +78,7 @@ import discussion from '../assets/discussion.jpeg'
     { 
       image:discussion ,
       title:"DISCUSSION",
-      content:"ISTE GECT Students Chapter conducted “ROUND TABLE - A Technical Group Discussion” on 18th September 2022 at 7pm as part of celebrating National Engineer’s Day in association with 2013 Alumni of GEC Thrissur. A great participation of students from GECT was recorded. We also got a very good feedback from all of them about the smart selection of topics and successful coordination.",
+      content:"ISTE GECT Students Chapter conducted “ROUND TABLE - A Technical Group Discussion” on 18th September 2022 at 7pm as part of celebrating National Engineer’s Day in association with 2013 Alumni of GEC Thrissur. A great participation of students from GECT was recorded. We also got a very good feedback from all of them.",
       date:"18/09/2022",
       state:"online"
     },

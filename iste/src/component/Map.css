@@ -15,10 +15,12 @@
 .formSec h1{
     font-family: 'IBM Plex Sans';
     color: white;
-    text-shadow: rgb(209, 80, 232) 3px 1px 1px ;
+    text-shadow: rgb(209, 80, 232) .15vw .1vw .05vw ;
+    font-size: 3vh;
 }
 .formHead{
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
 }
 .contactIcon{
@@ -40,7 +42,7 @@ form {
     
     flex-direction: column;
     width: 100%;
-    font-size: 16px;
+    font-size: 2vh;
 }
 input {
   width: 100%;
@@ -99,5 +101,13 @@ button:active{
     }
     .formSec{
         width: 90%;
+    }
+    .formSec h1{
+        font-size: 4.5vw;
+    }
+}
+@media (max-width:500px){
+    .formSec h1{
+        font-size: 7vw;
     }
 }

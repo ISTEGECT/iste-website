@@ -1,8 +1,7 @@
 import './Navbar.css'
-import { useState } from 'react';
+import { useState, React } from 'react';
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
-
 import {Link} from "react-scroll";
 const Navbar = () => {
   const [toggle,setToggle] = useState(false);
@@ -25,7 +24,7 @@ const Navbar = () => {
       <Link to="events"spy={true} smooth={true} offset={-90} duration={500}><div className="but" onClick={closeMenu}>EVENTS</div></Link>
       <Link to="team"spy={true} smooth={true} offset={-100} duration={500}><div className="but" onClick={closeMenu}>EXECOM</div></Link>
       <Link to="contact"spy={true} smooth={true} offset={-100} duration={500}><div className="but" >CONTACT</div></Link>
-
+      <a href='http://iste.gectcr.ac.in/'spy={true} smooth={true} offset={-100} duration={500}><div className="but nueva" >NUEVA</div></a>
      
       
 

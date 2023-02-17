@@ -42,15 +42,15 @@
 
 .col1 h1{
     text-align:'center';
-    text-shadow: rgb(209, 80, 232) 3px 1px 1px;
+    text-shadow: rgb(209, 80, 232) .2vw .1vw 0.1vw;
     letter-spacing: 0.4vw;
-    font-size: 2rem;
+    font-size: 3vw;
     
 }
 .col1 p{
   margin-top: 3vw;
   text-align: left;
-  font-size: 1.4vw;
+  font-size: 1.5vw;
 }
 .col2{
     width: 35%;
@@ -66,7 +66,7 @@
     text-align: center;
     padding: 2vw;
     box-shadow: 0.5px 0.5px  rgb(98, 96, 96);
-    font-size: 1.4vw;
+    font-size: 1.5vw;
     line-height: 3vw;
     border: 0.3vw solid ;
     border-top: none;
@@ -76,16 +76,17 @@
 }
 .col4 h1{
     text-align:'center';
-    text-shadow: rgb(209, 80, 232) 3px 1px 1px;
+    text-shadow: rgb(209, 80, 232) .2vw .1vw 0.1vw;
     letter-spacing: 0.4vw;
-    font-size: 2rem;
+    font-size: 3vw;
 
 }
 .col4 p{
     margin-top: 3vw;
 }
 .imgabt{
-    height: 35vw;
+    margin-top: 4vw;
+    height: 25vw;
     width: 35vw;
     margin-left: 0vw;
     
@@ -96,15 +97,15 @@
     margin-top: 5vw;
     }
   
-    @media screen and (max-width:768px) {
+    @media screen and (max-width:775px) {
         .About{
-            height: 160vw;
+            height: 180vw;
             width: 100%;
             margin-top: 10vw;
 
         }
         .row1{
-            height: 70vw;
+            height: 80vw;
             display: flex;
             flex-direction: column-reverse;
             box-shadow: -2px -1px 0px 0px  rgb(98, 96, 96);
@@ -118,8 +119,7 @@
           
         }
         .row2{
-           
-            height: 70vw;
+            height: 80vw;            
             display: flex;
             flex-direction: column;
             padding-bottom: 3vw;
@@ -133,107 +133,62 @@
             
         }
         .col1{
-            height: 100vw;
+            height: 60vw;
             width: 100%;
             box-shadow: none;
             border: none;
+            line-height: 4vw;
+        }
+        .col1 h1{
+            font-size: 6vw;
         }
         
         .col1 p{
-            margin-top: 3vw;
+            font-size: 2.5vw;
+            margin-top: 6vw;
+            letter-spacing: .3vw;
             text-align: center;
           }
         .col2{
-            height: 50vw;
+            height: 40vw;
             width: 100%;
            
         }
         .col3{
             display: 50vw;
             width: 100%;
+            height: 40vw;
            
         }
         .col4{
-            height: 100vw;
+            height: 40vw;
             width: 100%;
             border: none;
             box-shadow: none;
-        }
-        .imgabt{
-            height: 40vw;
-            width: 40vw;
-            margin-left: 30vw;
-        }
-        .imgobj{
-            height: 40vw;
-            width: 40vw;
-            margin-left: 30vw;
-            }
-    }
-    @media screen and (max-width:575px){
-        .About{
-            height: 180vw;
-            width: 100%;
-           
-            
-
-        }
-        .row1{
-            height: 80vw;
-           
-        }
-        
-        .row2{
-            height: 80vw;
-            box-shadow: 0.5px 0.5px  rgb(98, 96, 96);
-           
-            border: 0.3vw solid ;
-            border-top: none;
-            border-left: none;
-            border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
-            animation: borderRotate var(--d) linear infinite forwards;
-            
-          
-            
-        }
-        .col1{
-            height: 30vw;
-            
-        }
-        .col1 p{
-            margin-top: 6vw;
-            font-size: 1.9vw;
-            letter-spacing: .2vw;
-        }
-        .col2{
-            height: 40vw;
-            border-bottom: none;
-            border-right: none;
-            
-        }
-        .col3{
-            height: 40vw;
-        }
-        .col4{
-            height: 40vw;
             margin-top: 4vw;
-            box-shadow: none;
-            border: none;
             font-size: 1.9vw;
             letter-spacing: .2vw;
+            line-height: 4vw;
         }
         .col4 p{
            margin-top: 6vw;
+           font-size: 2.5vw;
         }
-        
+        .col4 h1{
+            font-size: 6vw;
+        }
+        .imgabt{
+            margin-top: 6vw;
+            height: 40vw;
+            width: 50vw;
+            margin-left: 22vw;
+        }
+        .imgobj{
+            height: 40vw;
+            width: 42vw;
+            margin-left: 26vw;
+            }
     }
-    
-
-
-   
-      
-      
-      
       
       @property --angle {
         syntax: '<angle>';

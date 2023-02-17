@@ -1,44 +1,53 @@
-*{
+* {
     margin: 0rem;
     padding: 0rem;
     box-sizing: border-box;
 }
+
 /* .container{
     background-color: black;
 } */
 
-.mainHeadDiv{
+.mainHeadDiv {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3rem 3rem 5rem;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    border: 0.2vw solid;
+    width: 80vw;
+    height: 11vw;
+    border-image: conic-gradient(from var(--angle), var(--c2), var(--c1) 0.1turn, var(--c1) 0.15turn, var(--c2) 0.25turn) 30;
+    animation: borderRotate var(--d) linear infinite forwards;
+    margin-left: 9vw;
 }
 
-.mainHead{
+.mainHead {
     font-family: 'IBM Plex Sans';
     text-align: center;
     color: white;
-    text-shadow: rgb(209, 80, 232) 3px 1px 1px ;
-    font-size: 4rem;
+    text-shadow: rgb(48, 47, 53) .5vw .3vw;
+    font-size: 5vw;
 }
-.imgDiv{
+
+.imgDiv {
     height: 15rem;
     width: 15rem;
     overflow: hidden;
 }
 
-.img1{
+.img1 {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.gridDiv{
+.gridDiv {
     display: grid;
-    grid-template-columns: repeat(1,minmax(0,1fr));
+    grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.imgMainDiv{
+.imgMainDiv {
     min-height: 400px;
     display: flex;
     flex-wrap: wrap;
@@ -47,18 +56,20 @@
 
 }
 
-.subHeadDiv{
+.subHeadDiv {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.subHead{
+
+.subHead {
     font-family: 'IBM Plex Sans';
     color: white;
-    font-size: 1.6rem;
+    font-size: 2.2vw;
+    text-shadow: rgb(209, 80, 232) .2vw .1vw .1vw ;
 }
 
-.imgNameDiv{
+.imgNameDiv {
     margin: 3vw;
     display: flex;
     position: relative;
@@ -68,7 +79,7 @@
     overflow: hidden;
 }
 
-.detailsDiv{
+.detailsDiv {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -77,7 +88,7 @@
 }
 
 
-.name{
+.name {
     font-family: 'IBM Plex Sans';
     text-align: center;
     font-size: 1.2rem;
@@ -85,14 +96,15 @@
     color: white;
 }
 
-.imgShade{
+.imgShade {
     top: 0rem;
     bottom: 0rem;
     left: 0rem;
     right: 0rem;
     position: absolute;
-    background-image: linear-gradient(transparent,transparent,rgba(0,0,0,0.8));
+    background-image: linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.8));
 }
+
 /* .seeMoreDiv{
     display: flex;
     align-items: center;
@@ -106,48 +118,72 @@
     color: white;
     padding: 0.5rem;
 } */
-.linkedinIcon{
+.linkedinIcon {
     width: 35px;
     margin: 1rem;
 }
+
 /* .seeMoreBtn:hover{
     background-color: rgba(75, 75, 75, 1);
     transition-duration: 50ms;
 } */
-.imgNameDiv:hover .imgShade{
+.imgNameDiv:hover .imgShade {
     background-image: none;
     background-color: rgba(0, 0, 0, 0.6);
     transition-duration: 500ms;
 }
-.imgNameDiv:hover .detailsDiv{
 
-    transform: translate(0,-60%);
+.imgNameDiv:hover .detailsDiv {
+
+    transform: translate(0, -60%);
     transition-duration: 500ms;
 }
-.imgNameDiv:hover .img1{
+
+.imgNameDiv:hover .img1 {
     scale: 1.1;
     rotate: 5deg;
     transition-duration: 500ms;
 }
 
-@media (min-width: 768px){
-    .md\:grid-cols-2{
-        grid-template-columns: repeat(2,minmax(0,1fr));
+@media (min-width: 768px) {
+    .md\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
-@media (min-width: 1280px){
-    .xl\:grid-cols-4{
-        grid-template-columns: repeat(4,minmax(0,1fr));
+
+@media (min-width: 1280px) {
+    .xl\:grid-cols-4 {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
 }
-@media only screen and (max-width:500px){
-    .imgNameDiv{
+@media(max-width:1280px){
+    .subHead{
+        font-size: 3.4vw;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .imgNameDiv {
         margin: 4vw;
     }
-    .mainHead{
-        font-size: 2rem;
+
+    .mainHead {
+        font-size: 5vw;
+        text-shadow: rgb(48, 47, 53) 1vw .2vw;
     }
-    .subHead{
-        font-size: 1.5rem;
+
+    .subHead {
+        font-size: 1.3rem;
+        text-shadow: rgb(209, 80, 232) .4vw .2vw .2vw ;
+
+    }
+
+    .name {
+        margin: 1.2rem;
+        font-size: 1rem;
+    }
+    .imgDiv{
+        height: 12rem;
+        width: 12rem;
     }
 }

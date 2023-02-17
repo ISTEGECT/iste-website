@@ -29,7 +29,7 @@ font-weight: 700;
 font-size: 5vw;
 line-height: 4vw;
 text-align: center;
-text-shadow: rgb(48, 47, 53) 8px 2px;
+text-shadow: rgb(48, 47, 53) .5vw .3vw;
 letter-spacing: 1.2vw;
   }
   
@@ -41,4 +41,9 @@ letter-spacing: 1.2vw;
    
     
 
+}
+@media (max-width:675px){
+  .eventHeading{
+    text-shadow: rgb(48, 47, 53) 1vw .2vw;
+  }
 }
