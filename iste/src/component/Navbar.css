@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&family=Poppins&family=Sarala&display=swap');
-
 
 nav{
   top:0;
   left: 0;
   /* position: relative; */
   /* background-color: rgb(0, 0, 0); */
-  background-color: rgb(45, 43, 43);
+  background-color: rgb(34, 33, 33);
   z-index:3;
   width: 100%;
   position: fixed;
@@ -45,15 +42,16 @@ nav{
   width: 100%;
   
   height:100%;
-  border-radius: 8px 0px 40px;
+  border-radius: 8px 0px 2vw;
 
  font-size: 1.2vw;
 font-weight: 500;
 cursor: pointer;
-font-family: 'IBM Plex Sans';
+font-family: 'Satoshi-Regular';
   text-decoration: none;
   color: white;
-  
+  font-weight: 600;
+  letter-spacing: .01vw;
 }
 .buttons a{
   width: 100%;
@@ -101,6 +99,12 @@ color: rgb(209, 80, 232);
 
 
 @media only screen and (max-width: 600px) {
+  .but{
+    
+  box-shadow: 2px 2px 2px 2px rgba(225, 0, 255, 1),
+  2px 1px 6px 1px rgba(225, 0, 255, 1),
+  2px 4px 8px 0px rgba(0,255,255,0.7);
+  }
  .buttons{
   display: none;
   position:relative
@@ -144,7 +148,7 @@ color: rgb(209, 80, 232);
 
  }
  .showMenu{
-      width: 50%;
+      width: 40%;
       position: absolute;
       background-color: #1e1e1f;
       /* z-index: 9; */
@@ -164,9 +168,9 @@ color: rgb(209, 80, 232);
  .showMenu .but{
   width: 100%;
   font-size: 2.5vw;
-  border-radius: 0%;
-  background-color: rgb(50, 51, 52);
-  border-bottom: rgb(0, 0, 0) 1px solid;
+  border-radius:5%;
+  background-color: rgb(0, 0, 0);
+  /* border-bottom: rgb(0, 0, 0) 1px solid; */
  }
 
  

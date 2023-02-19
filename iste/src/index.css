@@ -1,3 +1,19 @@
+@font-face {
+  font-family: Satoshi-Regular;
+  src: url(./assets/fonts/Satoshi-Regular.otf);
+}
+@font-face {
+  font-family: Satoshi-Black;
+  src: url(./assets/fonts/Satoshi-Black.otf);
+}
+@font-face {
+  font-family: Satoshi-Bold;
+  src: url(./assets/fonts/Satoshi-Bold.otf);
+}
+@font-face {
+  font-family: Satoshi-Light;
+  src: url(./assets/fonts/Satoshi-Light.otf);
+}
 
 body {
   margin: 0;
@@ -5,7 +21,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
      */
-     font-family: "IBM Plex Sans";
+     font-family: 'Satoshi-Regular';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
  

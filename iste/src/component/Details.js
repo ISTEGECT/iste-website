@@ -29,10 +29,8 @@ export default function Details() {
        </div>
        <div className="announcement ">
         <h1>Announcement</h1>
-        <div className='Dcontent'>
-        *NUEVA '23, 21st Annual ISTE State Students' Convention, is coming live on our campus soon.   <br></br>  
-*Pre-workshops as part of NUEVA '23 are happening now.
-          </div>
+        <div className='Dcontent'>- NUEVA '23, 21st Annual ISTE State Students' Convention, is coming live on our campus soon.<br></br>- Pre-workshops as part of NUEVA '23 are happening now.
+        </div>
        </div>
     </div>
   )

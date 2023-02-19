@@ -23,7 +23,7 @@
 }
 
 .mainHead {
-    font-family: 'IBM Plex Sans';
+    font-family: 'Satoshi-Bold';
     text-align: center;
     color: white;
     text-shadow: rgb(48, 47, 53) .5vw .3vw;
@@ -63,7 +63,7 @@
 }
 
 .subHead {
-    font-family: 'IBM Plex Sans';
+    font-family: 'Satoshi-Bold';
     color: white;
     font-size: 2.2vw;
     text-shadow: rgb(209, 80, 232) .2vw .1vw .1vw ;
@@ -89,7 +89,7 @@
 
 
 .name {
-    font-family: 'IBM Plex Sans';
+    font-family: 'Satoshi-Regular';
     text-align: center;
     font-size: 1.2rem;
     margin: 2rem;

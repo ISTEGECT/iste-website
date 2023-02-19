@@ -37,10 +37,11 @@
     animation: borderRotate var(--d) linear infinite forwards;
     font-size: 1.4vw;
     text-align: center;
-    line-height: 3vw;
+    line-height: 2.5vw;
 }
 
 .col1 h1{
+    font-family: 'Satoshi-Bold';
     text-align:'center';
     text-shadow: rgb(209, 80, 232) .2vw .1vw 0.1vw;
     letter-spacing: 0.4vw;
@@ -48,6 +49,7 @@
     
 }
 .col1 p{
+    font-family: 'Satoshi-Regular';
   margin-top: 3vw;
   text-align: left;
   font-size: 1.5vw;
@@ -67,7 +69,7 @@
     padding: 2vw;
     box-shadow: 0.5px 0.5px  rgb(98, 96, 96);
     font-size: 1.5vw;
-    line-height: 3vw;
+    line-height: 2.5vw;
     border: 0.3vw solid ;
     border-top: none;
     border-left: none;
@@ -75,6 +77,7 @@
     animation: borderRotate var(--d) linear infinite forwards;
 }
 .col4 h1{
+    font-family: 'Satoshi-Bold';
     text-align:'center';
     text-shadow: rgb(209, 80, 232) .2vw .1vw 0.1vw;
     letter-spacing: 0.4vw;
@@ -82,6 +85,7 @@
 
 }
 .col4 p{
+    font-family: 'Satoshi-Regular';
     margin-top: 3vw;
 }
 .imgabt{
@@ -94,7 +98,7 @@
 .imgobj{
     height: 25vw;
     width: 25vw;
-    margin-top: 5vw;
+    margin-top: vw;
     }
   
     @media screen and (max-width:775px) {
@@ -141,6 +145,7 @@
         }
         .col1 h1{
             font-size: 6vw;
+            margin-top: 3vw;
         }
         
         .col1 p{
@@ -178,7 +183,7 @@
             font-size: 6vw;
         }
         .imgabt{
-            margin-top: 6vw;
+            margin-top: 8vw;
             height: 40vw;
             width: 50vw;
             margin-left: 22vw;
@@ -187,6 +192,7 @@
             height: 40vw;
             width: 42vw;
             margin-left: 26vw;
+            margin-top: 8vw;
             }
     }
       

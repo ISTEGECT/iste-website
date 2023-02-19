@@ -11,6 +11,7 @@
 
   .Details h1{
     font-size: 2rem;
+    font-family: 'Satoshi-Bold';
   }
   .vision{
   color:white;
@@ -61,6 +62,7 @@
 }
 
 .Dcontent{
+  font-family: 'Satoshi-Regular';
   line-height: 4vw;
   font-weight: bold;
   font-size: 1.4vw;
@@ -136,7 +138,6 @@
 }
 .vision{
   width: 75vw;
-  height:30vw ;
   box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
             1px 2px 4px 0px rgba(225, 0, 255, 0.996),
             2px 4px 8px 0px rgba(0,255,255,0.7),
@@ -145,7 +146,6 @@
 .mission{
   margin-top: 4vw;
   width: 75vw;
-    height:30vw ;
     box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
             1px 2px 4px 0px rgba(225, 0, 255, 0.996),
             2px 4px 8px 0px rgba(0,255,255,0.7),
@@ -155,7 +155,6 @@
 .announcement{
   margin-top: 4vw;
   width: 75vw;
-  height:30vw ;
   box-shadow: 0px 1px 2px 0px rgba(225, 0, 255, 0.996),
             1px 2px 4px 0px rgba(225, 0, 255, 0.996),
             2px 4px 8px 0px rgba(0,255,255,0.7),
