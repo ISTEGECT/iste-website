@@ -24,7 +24,7 @@ const Navbar = () => {
       <Link to="events"spy={true} smooth={true} offset={-90} duration={500}><div className="but" onClick={closeMenu}>EVENTS</div></Link>
       <Link to="team"spy={true} smooth={true} offset={-100} duration={500}><div className="but" onClick={closeMenu}>EXECOM</div></Link>
       <Link to="contact"spy={true} smooth={true} offset={-100} duration={500}><div className="but" onClick={closeMenu}>CONTACT</div></Link>
-      <a href='http://iste.gectcr.ac.in/'spy={true} smooth={true} offset={-100} duration={500}><div className="but nueva" onClick={closeMenu}>NUEVA</div></a>
+      <a href='https://nueva.live/'spy={true} smooth={true} offset={-100} duration={500}><div className="but nueva" onClick={closeMenu}>NUEVA</div></a>
      
       
 
