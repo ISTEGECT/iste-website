@@ -181,3 +181,10 @@
   transform: none;
   visibility: visible;
 }
+.Dcontent a{
+  color: white;
+}
+.Dcontent3{
+  text-align: left;
+  padding: 2vw;
+}
