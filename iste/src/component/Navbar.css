@@ -101,9 +101,9 @@ color: rgb(209, 80, 232);
 @media only screen and (max-width: 600px) {
   .but{
     
-  box-shadow: 2px 2px 2px 2px rgba(225, 0, 255, 1),
-  2px 1px 6px 1px rgba(225, 0, 255, 1),
-  2px 4px 8px 0px rgba(0,255,255,0.7);
+  box-shadow: 2px 2px 2px 2px rgb(122, 2, 138),
+  2px 1px 6px 1px rgb(161, 3, 182),
+  2px 4px 8px 0px rgba(2, 216, 216, 0.7);
   }
  .buttons{
   display: none;
