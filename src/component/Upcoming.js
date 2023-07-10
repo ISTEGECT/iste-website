@@ -1,9 +1,40 @@
-import React, { useState } from "react";
+import React, { lazy, useState } from "react";
 import Carousel from "react-spring-3d-carousel";
-import nueva from '../assets/nueva.jpeg';
+import nueva from '../assets/nueva.jpg';
 import nueva2 from '../assets/nueva2.jpeg';
 import Bigo from '../assets/Bigo.jpeg';
 import Blockchain from '../assets/Blockchain.jpeg';
+import senti from "../assets/nueva/sentiment.webp"
+import drone from "../assets/nueva/drone.webp"
+import digital from "../assets/nueva/digital.webp"
+import ideathon from '../assets/nueva/ideathon.webp'
+import arcane from '../assets/nueva/arcane.webp'
+import curiosita from '../assets/nueva/curiosita.webp'
+import shipwreck from '../assets/nueva/shipwreck.webp'
+import murder from '../assets/nueva/murder.webp'
+
+
+//department events
+import cado from '../assets/nueva/cado.webp';
+import puzzled from '../assets/nueva/puzzled.webp';
+import avenir from '../assets/nueva/avenir.webp';
+import electrifix from '../assets/nueva/electrifix.webp';
+import trivia from '../assets/nueva/trivia.webp';
+import chem from '../assets/nueva/chem.webp';
+import crack from '../assets/nueva/crack.webp';
+import bidandbuild from '../assets/nueva/bidandbuild.webp';
+import lollapalooza from '../assets/nueva/lollapalooza.webp';
+import pictionary from '../assets/nueva/pictionary.webp';
+import quickescape from '../assets/nueva/quickescape.webp';
+import tagaboo from '../assets/nueva/tagaboo.webp';
+import robowar from '../assets/nueva/robowar.webp';
+import matrix from '../assets/nueva/matrix.webp';
+
+import laser from '../assets/nueva/laser.webp'
+import archathon from '../assets/nueva/archathon.webp'
+import soapitup from '../assets/nueva/soapitup.webp';
+import wannabees from '../assets/nueva/wannabees.webp';
+import talks from "../assets/nueva/talk.webp"
 import { v4 as uuidv4} from 'uuid';
 import { config } from "react-spring";
 import './Upcoming.css';
@@ -44,6 +75,115 @@ export const Upcoming = () => {
       key: uuidv4(),
       content: <img src={Blockchain} className="Uevent"  alt="4" />
     },
+    {
+      key: uuidv4(),
+      content: <img src={senti} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={drone} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={digital} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={ideathon} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={arcane} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={curiosita} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={shipwreck} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={murder} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={cado} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={puzzled} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={avenir} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={electrifix} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={trivia} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={chem} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={crack} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={bidandbuild} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={lollapalooza} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={pictionary} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={quickescape} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={tagaboo} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={robowar} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={matrix} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={laser} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={archathon} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={soapitup} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={wannabees} alt="1" className="Uevent" />
+    },
+    {
+      key: uuidv4(),
+      content: <img src={talks} alt="1" className="Uevent" />
+    },
+    
     
     
   ].map((slide, index) => {
