@@ -1,4 +1,4 @@
-import React, { lazy, useState } from "react";
+import React, { useState } from "react";
 import Carousel from "react-spring-3d-carousel";
 import nueva from '../assets/nueva.jpg';
 import nueva2 from '../assets/nueva2.jpeg';
