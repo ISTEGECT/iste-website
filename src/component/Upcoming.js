@@ -102,7 +102,7 @@ export const Upcoming = () => {
   return (<div className={`upcoming fade-in-section ${isVisible ? 'is-visible' : ''}`}
   ref={domRef}>
     <div className="head">
-    <h1 className='eventHeading' style={{textAlign:'center',color:'white'}}>Upcoming Events</h1>
+    <h1 className='eventHeading' style={{textAlign:'center',color:'white'}}>NUEVA Highlights</h1>
     </div>
 
     <div className="carouselevent"

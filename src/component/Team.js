@@ -1,8 +1,8 @@
 import React from 'react';
 import ProfJeena from '../assets/ProfJeenaJohn.jpg';
-import Arya from '../assets/ARYA.jpg';
-import Vaibhavi from '../assets/VAIBHAVI.jpg';
-import Vismaya from '../assets/VISMAYA.jpg';
+import Abdu from '../assets/Abdu-Convenor.jpg';
+import Sweda from '../assets/SWEDA-SECRETARY.jpg';
+import Rachel from '../assets/Rachel-Treasurer.jpg';
 import linkedin from '../assets/linkedin.svg';
 import './Team.css';
 
@@ -49,12 +49,12 @@ export default function Team() {
                             </div>
                             <div className="imgNameDiv">
                                 <div className="imgDiv">
-                                    <img className="img1" src={Arya} alt=""></img>
+                                    <img className="img1" src={Abdu} alt=""></img>
                                 </div>
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
-                                    <h1 className="name">Arya Ramachandran</h1>
-                                    <a href="https://www.linkedin.com/in/arya-ramachandran-968aa41b3"><img className="linkedinIcon" src={linkedin} alt=""></img></a>
+                                    <h1 className="name">Abdullah Rishad</h1>
+                                    <a href="https://www.linkedin.com/in/abdullah-rishad-721195162/"><img className="linkedinIcon" src={linkedin} alt=""></img></a>
                                 </div>
                             </div>
                         </div>
@@ -64,12 +64,12 @@ export default function Team() {
                             </div>
                             <div className="imgNameDiv">
                                 <div className="imgDiv">
-                                    <img className="img1" src={Vaibhavi} alt=""></img>
+                                    <img className="img1" src={Sweda} alt=""></img>
                                 </div>
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
-                                    <h1 className="name">Vaibhavi G Rao</h1>
-                                    <a href="https://www.linkedin.com/in/vaibhavi-g-rao-1a7752205"><img className="linkedinIcon" src={linkedin} alt=""></img></a>
+                                    <h1 className="name">Sweda Dinesh</h1>
+                                    <a href="https://www.linkedin.com/in/sweda-dinesh-9b354b21b/"><img className="linkedinIcon" src={linkedin} alt=""></img></a>
                                 </div>
                             </div>
                         </div>
@@ -79,12 +79,12 @@ export default function Team() {
                             </div>
                             <div className="imgNameDiv">
                                 <div className="imgDiv">
-                                    <img className="img1" src={Vismaya} alt=""></img>
+                                    <img className="img1" src={Rachel} alt=""></img>
                                 </div>
                                 <div className="imgShade"></div>
                                 <div className="detailsDiv">
-                                    <h1 className="name">Vismaya S Nair</h1>
-                                    <a href="https://www.linkedin.com/in/vismaya-santhosh-8960b6222"><img className="linkedinIcon" src={linkedin} alt=""></img></a>
+                                    <h1 className="name">Rachel Babu</h1>
+                                    <a href="https://www.linkedin.com/in/rachel-babu-9a9909247/"><img className="linkedinIcon" src={linkedin} alt=""></img></a>
                                 </div>
                             </div>
                         </div>
